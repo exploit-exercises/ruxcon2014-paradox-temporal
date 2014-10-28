@@ -1,0 +1,8 @@
+
+- posts.each do |post|
+  %h4 #{post[:title]}
+  %blockquote.well
+    %p #{post[:content]}
+    %small 
+      #{post[:username]}
+    
